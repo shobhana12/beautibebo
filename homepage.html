@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+                *{
+            padding: 0px;
+            margin: 0px;
+
+        }
+        #navupper{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            background-color: white;
+            border: transparent;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+        }
+        #navupper>div{
+            height: 100px;
+            width: 25%;
+            border: transparent;
+            margin-left: 90px;
+        }
+        #navupper>div>img{
+            margin-top: 10px;
+            height: 80%;
+            width: 100%;
+        }
+        #navupper>div+select{
+           height: 40px;
+           margin-left: 30px;
+           margin-top: 31px;
+           padding:0px 45px;
+           color:rgb(175, 161, 161);
+        }
+        #search{
+            height: 37px;
+            margin-top: 30px;
+            padding: 0px 45px;
+            margin-left: 5px;
+            color:rgb(175, 161, 161);
+        }
+        #acco{
+             height: 10px;
+            width: 30%;
+            border: transparent;
+            margin: auto;
+            display: flex;
+            margin-left: 40px;
+        }
+        #icon{
+            height: 40px;
+            width: 10%;
+            border: 1px solid black;
+            margin-top: 30px;
+        }
+        #icon>img{
+            height: 100%;
+            width: 100%;
+        }
+        #myacc{
+            height: 40px;
+            width: 10%;
+            border: none;
+            margin-top: 30px;
+            margin-left: 30px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+       
+        #myacc>img{
+            height: 100%;
+            width: 100%;
+        }
+        #my{
+            height: 40px;
+            width: 30%;
+            border: transparent;
+            margin-left: 3px;
+            margin-top: 30px;
+           
+        }
+        #my>p{
+            text-align: center;
+            margin-top: 6px;
+            font-size: 18px;
+        }
+        #login{
+            text-align: center; 
+            margin-top: 35px;
+            font-size: 20px;
+        }
+          *{
+            padding: 0px;
+            margin: 0px;
+
+        }
+        #navupper{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            background-color: white;
+            border: transparent;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+        }
+        #navupper>div{
+            height: 100px;
+            width: 25%;
+            border: transparent;
+            margin-left: 90px;
+        }
+        #navupper>div>img{
+            margin-top: 10px;
+            height: 80%;
+            width: 100%;
+        }
+        #navupper>div>select{
+           height: 40px;
+           margin-left: 30px;
+           margin-top: 31px;
+           padding:0px 45px;
+           color:rgb(175, 161, 161);
+        }
+        #search{
+            height: 37px;
+            margin-top: 30px;
+            padding: 0px 45px;
+            margin-left: 5px;
+            color:rgb(175, 161, 161);
+        }
+        #acco{
+             height: 10px;
+            width: 30%;
+            border: transparent;
+            margin: auto;
+            display: flex;
+            margin-left: 40px;
+        }
+        #icon{
+            height: 40px;
+            width: 10%;
+            border: 1px solid black;
+            margin-top: 30px;
+        }
+        #icon>img{
+            height: 100%;
+            width: 100%;
+        }
+        #myacc{
+            height: 40px;
+            width: 10%;
+            border: none;
+            margin-top: 30px;
+            margin-left: 30px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+       
+        #myacc>img{
+            height: 100%;
+            width: 100%;
+        }
+        #my{
+            height: 40px;
+            width: 30%;
+            border: transparent;
+            margin-left: 3px;
+            margin-top: 30px;
+           
+        }
+        #my>p{
+            text-align: center;
+            margin-top: 6px;
+            font-size: 18px;
+        }
+        #login{
+            text-align: center; 
+            margin-top: 35px;
+            font-size: 20px;
+        }
+
+    
+    *{
+            margin:0px;
+            padding: 0px;
+        }
+       #nav{
+        height:50px;
+        width: 100%;
+        border: 1px solid red;
+       
+        background-color: rgb(218, 40, 69);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       }
+      #nav>div{
+      padding-right:30PX ;
+        color: white;
+      }
+    #nav>div>select{
+        margin-left: 30px;
+        padding: 7px 5px;
+        color: white;
+        background-color: rgb(218, 40, 69);
+        border: transparent;
+        font-size: 16px;
+       
+    }
+    #home{
+        height: 470px;
+        width: 80%;
+        border: 1px solid rgb(150, 139, 139);
+        margin:auto;
+       
+        display: flex;
+        margin-bottom: 10px;
+    }
+    #home>div:nth-child(1){
+        height: 420px;
+        width: 25%;
+        border: transparent;
+        margin-top: 10px;
+    }
+    #home>div>div{
+        height: 50px;
+        width: 98%;
+        border: transparent;
+        display: flex;
+       
+       
+    }
+    #home>div>div:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    #home>div>div>p{
+       
+        margin-left:10px ;
+    }
+    #home>div>div>img+p{
+        
+        margin-left: 10px;
+    }
+    #home>div>div>img+p:hover{
+        color: pink;
+    }
+    #home>div>div>img{
+        height: 25px;
+        width:25px;
+        margin-left:7px;
+        margin-top: 12px;
+    }
+     #home>div:nth-child(2){
+        height: 450px;
+        width:73%;
+       margin: auto;
+        border: transparent;
+    }
+    #home>div:nth-child(2)>img{
+        height: 100%;
+        width: 100%;
+    }
+    #secondpart{
+        height: 240px;
+        width:80%;
+        border: transparent;
+       
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    #secondpart>img{
+        height: 100%;
+        width: 100%;
+    }
+   div+ P{
+       
+        margin-left: 150PX;
+        margin-top: 10px;
+    }
+    #thirdpart{
+        height:419px;
+        width: 80%;
+        border: transparent;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap:10px;
+
+    }
+    #thirdpart>div{
+        border: 1px solid grey;
+    }
+    #thirdpart>div>img{
+        height: 50%;
+        width: 90%;
+      display:block;
+        margin: auto;
+        margin-top: 15px;
+    }
+    #thirdpart>div>img+p{
+        text-align: center;
+       font-size: 17px;
+     
+    }
+    #thirdpart>div>img+p+h4{
+        color:rgb(191, 51, 75);
+        font-size: 18px;
+        text-align: center;
+    }
+   
+    #thirdpart>div>img+p+h4+ button{
+        padding:5px 20px;
+        background-color: rgb(205, 63, 86);
+        display: block;
+        border: none;
+       
+        margin: auto;
+        margin-top:20px;
+    }
+    #thirdpart>div>img+p+h4+button:hover{
+        background-color: rgb(179, 37, 61);
+        border: none;
+    }
+    #fourthpart{
+        height: 300px;
+        width: 80%;
+        border:transparent;
+        margin: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap:10px;
+    }
+    #fourthpart>div{
+        border:transparent;
+    }
+    #fourthpart>div>img{
+        height: 95%;
+        width: 100%;
+    }
+    #fifthpart{
+        height: 100px;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(1,1fr);
+        margin-bottom: 20px;
+        
+    }
+    #fifthpart>div{
+        border: 1px solid grey;
+    }
+  
+    #fifthpart>div>img{
+        height: 35px;
+        width: 35px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+    #fifthpart>div>img+P{
+       
+        font-size: 17px;
+        text-align: center;
+       
+    }
+    #fifthpart>div>img+P:hover{
+        background-color: rgb(180, 63, 83);
+    }
+    
+   
+   
+    #fifthpart>div:hover{
+        background-color:  rgb(180, 63, 83);
+    }
+    #sixpart{
+        height:419px;
+        width: 80%;
+     
+        border: transparent;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap:10px;
+
+    }
+    #sixpart>div{
+        border: 1px solid grey;
+        margin-bottom: 10px;
+    }
+    #sixpart>div>img{
+        height: 50%;
+        width: 90%;
+      display:block;
+        margin: auto;
+        margin-top: 15px;
+    }
+    #sixpart>div>img+p{
+        text-align: center;
+       font-size: 17px;
+     
+    }
+    #sixpart>div>img+p+p+button{
+        padding:5px 20px;
+        background-color: rgb(205, 63, 86);
+        display: block;
+        border: none;
+       
+        margin: auto;
+        margin-top:20px;
+    }
+    .price{
+        color:rgb(191, 51, 75);
+        font-size: 18px;
+        text-align: center;
+    }
+    span{
+        color: green;
+    }
+    button{
+        padding:5px 20px;
+        background-color: rgb(205, 63, 86);
+        display: block;
+        border: none;
+       
+        margin: auto;
+        margin-top:-5px;
+    }
+    button:hover{
+        background-color: rgb(167, 21, 45);
+        border: none;
+    }
+
+    #sevenpart{
+        height: 240px;
+        width:80%;
+        margin-bottom: 10px;
+       display: flex;
+       margin-top: 20px;
+        border:transparent;
+      
+        margin: auto;
+    }
+    #sevenpart>img{
+        height: 100%;
+        width: 100%;
+    }
+    h2{
+     margin-left: 10%;
+     color: rgb(94, 91, 91);
+    }
+ #ninthpart{
+    height: 650px;
+    width: 80%;
+    border: none;
+    margin: auto;
+ }
+ #ninthpart>p{
+    font-size: 17px;
+    color:rgb(41, 39, 39);
+    line-height: 17px;
+    font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+ }
+ #footer{
+    height: 400px;
+    width: 100%;
+    border: transparent;
+    background-color: rgb(81, 78, 78);
+    display: flex;
+ }
+ #footer>div{
+    height: 350px;
+    width: 20%;
+    border: transparent;
+    margin: auto;
+    background-color: rgb(81, 78, 78);
+  
+ }
+   #footer>div>h3{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(81, 78, 78);
+   }
+   #footer>div>h2{
+   color: rgb(220, 88, 88);
+   background-color: rgb(81, 78, 78);
+}
+.p{   margin-top: 10px;
+    font-size: 18px;
+    color:white;
+    background-color: rgb(81, 78, 78);
+    color: rgb(176, 167, 167);
+}
+ #footer>div:nth-child(1){   
+    margin-left: 10%;
+ }
+ #img{
+    height: 60px;
+    width: 60%;
+    border: transparent;
+    display: flex;
+    background-color: rgb(81, 78, 78);
+    margin-top: 10px;
+    
+ }
+ 
+ 
+ #img>div>img{
+    height: 100%;
+    width: 100%;
+ }
+ .clauser{
+    position: relative;
+ }
+ .clauser>button{
+    position: absolute;
+    top:150px;
+    background-color:rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    width: 50px;
+    height: 50px;
+ }
+ .clauser>button:nth-child(2){
+  left: 5%;
+ }
+ .clauser>button:nth-child(3){
+    right:5%;
+ }
+ input{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+ }
+ select{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+ }
+ .p4{
+    margin-top:15px;
+ }
+ #fifthpart>div:nth-child(1){
+    background-color:rgb(191, 51, 75);
+ }
+    </style>
+</head>
+<body>
+    <div id="navupper">
+        <div>
+         <img alt="a" src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png">
+        </div>
+        <select>
+         <option value="All CATEGORIES">
+              All CATEGORIES
+         </option>
+         <option value="makeup">---makeup</option>
+         <option value="Hair">---Hair</option>
+         <option value="Brush">----Brush</option>
+         <option value="Face">----Face</option>
+         <option value="foundation">----Foundation</option>
+         <option value="Makeup Remover">----Makeup Remover</option>
+         <option value="BB cream">--------BB Cream</option>
+         <option value="Loose Powder">------Loose Powder</option>
+        </select>
+        <input id="search" type="text" placeholder="Enter your search">
+        <div id="acco">
+         <div id="icon">
+             <img alt="econ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACBCAMAAADQfiliAAAAZlBMVEX19fUAAAD////8/Pz5+fnc3Ny2trbu7u7i4uKgoKDp6emPj49UVFSEhIR4eHiAgIBERETLy8s1NTW8vLywsLBJSUlnZ2cpKSlsbGwXFxdycnLCwsKWlpbR0dFaWlo7OzsMDAwiIiIRRaAIAAADcElEQVR4nO2aabeiMAyGaRMVcBdFcff//8kBdeaiLEm66Nxz+nzuCS9p2iZpoygQCAQCgUDgV4IIoEFrAOSNroZqQM5ojkGA0TKZzvazeZLFlIhydHp4jj6kPMn9gB4cF+qH7fTQYxb0cnypjV6NTxqsvo+YbdQ7RTLS7d+P1tvG6NU6stAAy0nD4t1qEjXdgDhctI5eZKYBgThvtVixid9/DNJz5+h8ZCQBBk2X1kheZ0JnfYPVqX3eeiFMKrWv/RfClBi9FkuAIWFSqfO/YECckaMToQQ4kCZrEhgCpF6AAcNkKeER5MARoNRBsCoxXbFsql1lVFMx8KQY8FcE7Hk2lToCJ2KenFt2kQ4B1DKosdQxfzA7GrHgG93GzW27m5TnBEgENtVNMnjODMarxKgMlhNg7U+AGrMiof08dMNqRH8feZuRKQd6GuDoVcGMngbtcxKUutCTEPdmBdZcT9Q04NKrAKWG1JbgdS1WHKlA8ByI5XFKKdDsY9GQC6mgO+N1w41UIDnqTChIBRfaiBXXX+CD78cBL+81Z/H/7wf8zNeQI7Ur48mzgow8mdJvn40R+F2OFzpN02OvCnI6R/IcCGR6UDLyuS9fY0bBQLZDbMhZLVGf6XrGKtuwvSnngoLzfa+p4phZuUqqdxnM6j3SovJdwJTdzPK0IG+cpfjAUyTwSvcH6KN45FTuPwp87AmSfqKX82kvu2ZAZPY0+Ug7/M7nQTYHFdrteiBL5hZkbUWCudEli8No3BlednGb5iSM1KwDcOOFvcXlK7rwQs5u6rehc2sBG7vrZ9Q7SwETKw9UEiK7xtLZ7LLzVYLNRGy4WVGvBDSv4272HnhIMM0WVm4EVPW0mYQLPyujJZhMxHZg9/jhVcLoJlfQeCBgKUGaPhcuPXCXEMskFCfHAsgHEe8snQsoJQiud70IqLzAriflSSFTwokpgdclMJLAu4Ti9IqMJXDaXD4FlBkL/T5F/upGBvk6QvrmxkBCf+s7cXYYdaP7JJCdczcSuus5SY/CSkJXPTf9iAcqOkpK7isTF+i2uyBhi8JWQrOey/UHlkGNRv97Z1uZSHl/wGlXHJpJeHm8ZlkcGlIrKb8joOSvhImrykQKRo9L6oWL4tBQwr2kdFabmUnIi8n3PHCXEMWfX4YNDYFAIBAIBAKO+QPGGi6L8Q2raQAAAABJRU5ErkJggg==">
+         </div>
+        <div id="myacc">
+            <img alt="a" src="https://image.shutterstock.com/display_pic_with_logo/191967308/1691909635/stock-vector-people-and-person-icon-people-icon-with-modern-flat-design-people-vector-icon-isolated-on-white-1691909635.jpg">
+            
+         </div>
+         <div id="my"><p>My Account</p></div>
+         <div ><a href="signin.html"><p id="login">Login</p></a></div>
+        </div>
+     </div>
+    <div id="nav">
+        <div><select id="MAKEUP">
+       <option value="MAKEUP">MAKEUP</option>
+        </select></div>
+        <div>
+           <select id="SKIN">
+               <option value="SKIN">
+                   SKIN
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="HAIR">
+               <option value="HAIR">
+                   HAIR
+               </option>
+           </select>
+        </div>
+        <div>
+        <select id="PERSONALCARE">
+           <option value="PERSONALCARE">
+               PERSONALCARE
+           </option>
+       </select></div>
+        <div>
+           <select id="MOM&BABY CARE">
+               <option value="MOM$BABY CARE">
+                  MOM&BABY CARE
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="FRAGRANCE">
+               <option value="FRAGRANCE">
+                   FRAGRANCE
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="AYURVEDA">
+               <option value="AYURVEDA">
+                  AYURVEDA
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="BRANDS">
+               <option value="BRANDS">
+                 BRANDS
+               </option>
+           </select>
+        </div>
+        <div>
+        MYCART
+        </div>
+       </div>
+    <div id="home">
+        <div>
+           <div><p>All CATEGORIES</p>
+           </div>
+            <div>
+                <img  alt="a" src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/makeup-small.png">
+                <P class="p4">MAKEUP </P>
+             </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/skin-small.png">
+                <P class="p4">SKIN</P>
+            </div>
+            <div> <img alt="c" src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/hair-small.png">
+                <P class="p4">HAIR</P>
+            </div>
+            <div> <img alt="d" src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/personal-care-small.png">
+                <P class="p4">PERSONALCARE</P>
+            </div>
+            <div> <img alt="e" src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/mom-baby-care-small.png">
+                <P class="p4">MOM &BABY CARE</P>
+            </div>
+            <div> <img alt="f" src="https://www.beautybebo.com/pub/media/fragrance.png">
+                <P class="p4">FRAGRANCE</P>
+            </div>
+                <div> <img alt="h" src="https://www.beautybebo.com/pub/media/ayurveda.png">
+                    <P class="p4">AYURVEDA</P>
+                </div>
+              </div>
+            <!-- second child //big div -->
+            <div class="clauser">
+            <img alt="b" src="https://www.beautybebo.com/pub/media/mega-menu/slider-2.jpg">
+            <button>></button>
+            <button><</button>
+
+
+
+            </div>
+
+    </div>
+    <!-- 2nd part of home page -->
+    <div id="secondpart">
+        <img alt="second" src="https://www.beautybebo.com/pub/media/blue_heaven.jpg"> 
+    </div>
+    <p>NEW ARRIVALS</p>
+        <!-- 3rd patr of home page --> 
+        <div id="thirdpart">
+          
+        </div>
+         <!-- 4th part of homepage -->
+               
+        <div id="fourthpart">
+            <div>
+                <img alt="d" src="https://www.beautybebo.com/pub/media/mega-menu/beeone.jpg">
+            </div>
+            <div>
+                <img alt="e" src="https://www.beautybebo.com/pub/media/mega-menu/lotus.jpg">
+            </div>
+        </div>
+        <!-- 5th part of home page -->
+        <div id="fifthpart">
+            <div>
+                <img alt="a" src="https://www.beautybebo.com/pub/media/catalog/category/makeup_1.png">
+                <p>make up</p>
+            </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/catalog/category/skin.png">
+                <p>skin</p>
+            </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/catalog/category/hair.png">
+                <p>hair</p>
+            </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/catalog/category/personal-care.png">
+                <p>personal-care</p>
+            </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/catalog/category/mom-baby-care.png">
+                <p>Mom &baby care</p>
+            </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/catalog/category/eye_1.png">
+                <p>Eye</p>
+            </div>
+            <div>
+                <img alt="b" src="https://www.beautybebo.com/pub/media/catalog/category/fragrance_3.png">
+                <p>fragrance</p>
+            </div>
+        </div>
+        <!-- 6th part -->
+        <div id="sixpart">
+            <div>
+                <img alt="v" src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/2/7/277cf77missc00000081_1.jpg">
+                <p>Miss clare Eyelash glue-clare tone <br>himalayn</p>
+                <p class="price">$499.99 <span>10% off</span></p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <img alt="v" src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/b/5b990e16902395773146_3.jpg">
+                <p>Menvin Newyork fit me primer <br>dwery+free</p>
+                <p class="price">$399.99 <span>9% off</span></p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <img alt="v" src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/6/9/6902395735908_0.jpg">
+                <p>Mama earth flower of earth <br>encention of acid</p>
+                <p class="price">$599.99 <span>12% off</span></p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <img alt="v" src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/1/51c18ra5qzs._sl1500_.jpg">
+                <p>Wow science and rose himalayan <br>conditioner</p>
+                <p class="price">$299.99 <span>8% off</span></p>
+                <button>Add to cart</button>
+               
+            </div>
+        </div>
+        <!-- 7th part -->
+        <div id="sevenpart">
+            <img alt="second" src="https://www.beautybebo.com/pub/media/mega-menu/homepage.jpg">
+        </div>
+     <!-- 8th part -->
+     <!-- hooter part -->
+     <h2>Wecome to beauty product Online Shoping India Beauty Bebo</h2>
+     <div id="ninthpart">
+      <p>If you are looking for a flawless radiant face outlook for a special occasion, then we<br> have the perfect tips for you. As you must already know, the conspicuous flawless outlook you want for your wedding, a date, a dinner party or for a modelling competition is only achieved through makeup.
+
+        Don’t get me wrong, you are naturally beautiful, <br> that’s obvious. But everyone else is, so how will you will you ensure that<br> you are different? Read on for hot irresistible tips before you buy beauty products online!
+        
+        Clean Your Face First!
+        
+        Before embarking on any makeup, always ensure that your face is clean. Need some assistance <br> in absolute cleaning? Visit our range of face wash beauty products online for your best pick. We have made it our duty to carefully select the best products for you, so that you don’t experience breaks and allergies after use. So now you can be confident that your buy cosmetic online shopping will be worth your time and effort.
+        
+        Wondering then how you will make a choice among <br> the spectrum available? Most of our products are purely natural in ingredient,<br> so you can as well check for your favorite ingredient combination. If not sure, we are still here for you. We can help narrow down your options, together with you.
+        
+        Apply a Moisturizer
+        
+        Next, you need a moisturizer in your makeup kit. Moisturizers<br>  keep your face glowing regardless of the mood of the day.<br>  Most essentially, moisturizers will keep your skin hydrated from the outside, while your constant hydration by taking fluids enhance the efforts.
+        
+        Our moisturizers range from matte, ponds, creams and gels, all to ensure that your specific need is met.<br>  Just go through the list for a better selection, which will aid you through your cosmetic online shopping. With the best moisturizer, it will also work as a primer. Hence, you don’t have to buy an extra product, which saves you some cost.
+        
+        Get Your Makeup Kit
+        
+        Your general makeup will consist, of more than the moisturizer.<br>  Some o the other major components include the foundation, which you use on your whole face. Then there is the concealer, which you concentrate on areas of the face you want to hide. There is the brightener and highlighter, which you will highlight areas you want conspicuous on your face.
+        
+        And don’t forget to look into our range of toners <br> for your best shot at a firmer face and neck.
+        
+        We have the most effective beauty products India has dreamt of to replenish your kit, so don’t miss out!
+        
+        Enhance the Outlook of the Eyes
+        
+        At this point, your eyebrows should be in the shape<br>  and size you want them to be. Now you can brush them up to bring out a perfect outlook. Apply eye pencil to cover any gaps within the eyebrows for an ideal outlook.
+        
+        If the area surrounding your eyes has a different color shade, probably more tanned or lighter <br> in color in comparison to your general face color, then pay attention to the area.
+        
+        Use concealers to bring out the perfect shade you want for a uniform outlook. <br> Alternatively, you can use the highlighter to bring attention to your eyes, which even adds to a seemingly large-eye size.
+        
+        If your eyes are starting to show wrinkles, then our under-eye wrinkle creams from our cosmetic<br>  online shop should come in handy.
+        
+        Want to finish up with a luminating cosmetic product for a <br> conspicuously radiant look? Go ahead and make your makeup experience more appealing.
+        
+        Your Lips?
+        
+        For a natural beauty look, go for a glossy lip gloss or a light lipstick.<br>  Or are you going out with the girls, and thicker lips your<br>  way? Our range of matte lipstick collection should work for you.
+        
+        Bottom Line
+        
+        Want to buy beauty products online to improve your<br>  makeup kit? We are always there for you, ready to help.
+        
+        All you have to do is take a step, look into our products and try us.<br>  Looking forward to seeing you!
+    </p>
+       
+    </div>
+    <div id="footer">
+    <div>
+    <h3>CONTACT INFO</h3>
+     <h2>-------------</h2>
+     <p class="p">Support@beautybebo.com</p>
+     <p class="p">sales@beautybebo.com</p>    
+     <p class="p">Open time:10:00Am to 7:00Pm</p>
+     <div id="img">
+     <div>
+        <img src="data:image/jpeg;base64,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" alt="a">
+     </div>
+     <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmOhnXSaEN1vM2cQ5EYy79Zawr5Pk_A9JzBQ&usqp=CAU" alt="a">
+
+     </div>
+     </div>
+   </div>
+    <div>
+        <h3>QUICK LINKS</h3>
+        <h2>-------------</h2>
+        <p class="p">About Us</p>
+        <p class="p">Contact Us</p>
+        <p class="p">Term and Conditions</p>
+        <p class="p">Privacy Policy</p>
+        <p class="p">Return and refund Policy</p>
+        <p class="p">Shiping Policy</p>
+    </div>
+    <div>
+        <h3>CUSTOMER INFO</h3>
+        <h2>-------------</h2>
+        <p class="p">My Account 
+
+        </p>
+        <p class="p">Track your Order</p>
+        <p class="p">Order REturns</p>
+        <p class="p">Wishlist</p>
+        <p class="p">News and Events</p> 
+        <p class="p">FAQ</p>
+    </div>
+    <div>
+        <h3>CATEGORIES</h3>
+        <h2>-------------</h2>
+        <p class="p"> Makeup</p>
+        <p class="p">Hair</p>
+        <p class="p">skin</p>
+        <p class="p">personal-care</p>
+        <p class="p">Mom and Baby care</p>
+        <p class="p">Fragrance</p>
+        <p class="p">Ayurveda</p>
+        
+    </div>
+    </div>
+    
+     
+</body>
+</html>
+<script>
+     var cartarray=JSON.parse(localStorage.getItem('cartdata'))|| [] 
+       
+    var arrobj=[
+        {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/a/c/activated_charcoal_face_mask2.jpg",
+        productName:"Wow skin care and science charchol face mask"
+        ,Price:299.99 ,quantity:1},
+        {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/d/fd794d08904304373124.jpg",
+        productName:"Wow skin care and science charchol face peel mask",Price:139,quantity:1},
+        {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/8/88b239c8904311904281__1_.jpg",
+        productName:"Wow skin care and science charchol face peel mask",Price:389.99,quantity:1},
+        {image:"https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/a/1/a1_1.jpg",
+        productName:"Wow skin care and science charchol face peel mask",Price:399.99,quantity:1},
+    ]
+    showdata(arrobj)
+    function showdata(data){
+    data.map(function(elem){
+        let box=document.createElement("div")
+        let img=document.createElement("img")
+         img.setAttribute("src",elem.image)
+         let paras=document.createElement("p")
+         paras.innerText=elem.productName
+         let prices=document.createElement("h4")
+         prices.innerText=elem.Price
+         
+         document.querySelector("#thirdpart").append(box)
+        let  btn=document.createElement("button")
+
+        btn.addEventListener("click",function(){
+            addtocart(elem)
+            window.location.href="product.html"
+        })
+       
+         btn.innerText="Add to cart"
+        
+         box.append(img,paras,prices,btn)
+    })
+   
+}
+
+
+function addtocart(elem){
+    
+        cartarray.push(elem);
+        window.localStorage.setItem("cartdata",JSON.stringify(cartarray));
+     }
+     var imgarr=[
+   " https://www.beautybebo.com/pub/media/mega-menu/slider-3.jpg",
+    "https://www.beautybebo.com/pub/media/mega-menu/slider-1.jpg",
+    "https://www.beautybebo.com/pub/media/mega-menu/mom_baby_cata.jpg",
+    "https://www.beautybebo.com/pub/media/mega-menu/slider-3.jpg"
+    ]
+    let imgNum=0;
+     let imgs=document.querySelector(".clauser>img");
+    let buttons=document.querySelectorAll(".clauser>button");
+    buttons[0].addEventListener("click",myfunctionofcla)
+   
+    function myfunctionofcla(){
+     
+        console.log('some')
+        if(imgNum===0){
+            imgNum=imgarr.length-1;
+        }
+        else{
+            imgNum--;
+        }
+        imgs.src=imgarr[imgNum]
+    }
+    buttons[1].addEventListener("click",myfunctionofclauser)
+
+    function myfunctionofclauser(){
+        let imgNum=0;
+        console.log('some one')
+        if(imgNum===imgarr.length-1){
+            imgNum=0
+        }
+        else{
+            imgNum++;
+        }imgs.src=imgarr[imgNum]
+    }
+</script>

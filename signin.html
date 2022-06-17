@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <style>
+    
+           *{
+        margin:0px;
+        padding:0px;
+         box-sizing: border-box;
+    }
+   
+       #nav{
+        height:50px;
+        width: 100%;
+        border: 1px solid red;
+       
+        background-color: rgb(218, 40, 69);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       }
+      #nav>div{
+      padding-right:30PX ;
+        color: white;
+      }
+    #nav>div>select{
+        margin-left: 30px;
+        padding: 7px 5px;
+        color: white;
+        background-color: rgb(218, 40, 69);
+        border: transparent;
+        font-size: 16px;
+       
+    }
+    body{
+        background-color: rgb(243,243, 243);
+    }
+    #div1{
+         margin-left: 70px;
+        margin-top: 50px;
+        width:40%;
+       border: 1px solid grey;
+       padding:30px 10px;
+    }
+   #form>input{
+        padding:15px 20px;
+       
+    }
+    #form>input{
+        width: 100%;
+        display: block;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+  #form>input[type=submit]{
+    color: white;
+   }
+   #div>h2{
+      margin-bottom: 20px;
+      color: rgb(161, 154, 154);
+    }
+   #div1>p{
+        margin-bottom: 20px;
+    }
+   #div1>h3{
+        margin-top: -20px;
+        margin-left: 150px;
+        color: grey;
+    }
+    #form>input:nth-child(3){
+        width: 20%;
+        background-color: grey;
+        border: grey;
+    }
+    #div12{
+        display: flex;
+    }
+    #div2{
+        height: 370px;
+        width:40%;
+        margin-left: 30px;
+        border: 1px solid grey;
+        margin-top: 50px;
+        padding: 10px;
+      
+    }
+    #div2>h3{
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-left: -5px;
+
+    }
+    #div2>h3+hr+p+button{
+        padding: 10px 15px;
+        background-color: grey;
+        border: none;
+        color: white;
+    }
+    #navupper{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            background-color: white;
+            border: transparent;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+        }
+        #navupper>div{
+            height: 100px;
+            width: 25%;
+            border: transparent;
+            margin-left: 90px;
+        }
+        #navupper>div>img{
+            margin-top: 10px;
+            height: 80%;
+            width: 100%;
+        }
+        #navupper>div>select{
+           height: 40px;
+           margin-left: 30px;
+           margin-top: 31px;
+           padding:0px 45px;
+           color:rgb(175, 161, 161);
+        }
+        #search{
+            height: 37px;
+            margin-top: 30px;
+            padding: 0px 45px;
+            margin-left: 5px;
+            color:rgb(175, 161, 161);
+        }
+        #acco{
+             height: 10px;
+            width: 30%;
+            border: transparent;
+            margin: auto;
+            display: flex;
+            margin-left: 40px;
+        }
+        #icon{
+            height: 40px;
+            width: 10%;
+            border: 1px solid black;
+            margin-top: 30px;
+        }
+        #icon>img{
+            height: 100%;
+            width: 100%;
+        }
+        #myacc{
+            height: 40px;
+            width: 10%;
+            border: none;
+            margin-top: 30px;
+            margin-left: 30px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+       
+        #myacc>img{
+            height: 100%;
+            width: 100%;
+        }
+        #my{
+            height: 40px;
+            width: 30%;
+            border: transparent;
+            margin-left: 3px;
+            margin-top: 30px;
+           
+        }
+        #my>p{
+            text-align: center;
+            margin-top: 6px;
+            font-size: 18px;
+        }
+        #login{
+            text-align: center; 
+            margin-top: 35px;
+            font-size: 20px;
+        }
+    #sele{
+        height: 37px;
+        margin-top: 30px;
+        padding: 0px 20px;
+        background-color: rgb(222, 219, 219);
+    }
+    input{
+        background-color: white;
+        border: 1px solid grey;
+    }
+    </style>
+</head>
+<body>
+    <div id="navupper">
+        <div>
+         <img alt="a" src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png">
+        </div>
+        <select id="sele">
+         <option value="All CATEGORIES">
+              All CATEGORIES
+         </option>
+         <option value="makeup">---makeup</option>
+         <option value="Hair">---Hair</option>
+         <option value="Brush">----Brush</option>
+         <option value="Face">----Face</option>
+         <option value="foundation">----Foundation</option>
+         <option value="Makeup Remover">----Makeup Remover</option>
+         <option value="BB cream">--------BB Cream</option>
+         <option value="Loose Powder">------Loose Powder</option>
+        </select>
+        <input id="search" type="text" placeholder="Enter your search">
+        <div id="acco">
+         <div id="icon">
+             <img alt="econ" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACBCAMAAADQfiliAAAAZlBMVEX19fUAAAD////8/Pz5+fnc3Ny2trbu7u7i4uKgoKDp6emPj49UVFSEhIR4eHiAgIBERETLy8s1NTW8vLywsLBJSUlnZ2cpKSlsbGwXFxdycnLCwsKWlpbR0dFaWlo7OzsMDAwiIiIRRaAIAAADcElEQVR4nO2aabeiMAyGaRMVcBdFcff//8kBdeaiLEm66Nxz+nzuCS9p2iZpoygQCAQCgUDgV4IIoEFrAOSNroZqQM5ojkGA0TKZzvazeZLFlIhydHp4jj6kPMn9gB4cF+qH7fTQYxb0cnypjV6NTxqsvo+YbdQ7RTLS7d+P1tvG6NU6stAAy0nD4t1qEjXdgDhctI5eZKYBgThvtVixid9/DNJz5+h8ZCQBBk2X1kheZ0JnfYPVqX3eeiFMKrWv/RfClBi9FkuAIWFSqfO/YECckaMToQQ4kCZrEhgCpF6AAcNkKeER5MARoNRBsCoxXbFsql1lVFMx8KQY8FcE7Hk2lToCJ2KenFt2kQ4B1DKosdQxfzA7GrHgG93GzW27m5TnBEgENtVNMnjODMarxKgMlhNg7U+AGrMiof08dMNqRH8feZuRKQd6GuDoVcGMngbtcxKUutCTEPdmBdZcT9Q04NKrAKWG1JbgdS1WHKlA8ByI5XFKKdDsY9GQC6mgO+N1w41UIDnqTChIBRfaiBXXX+CD78cBL+81Z/H/7wf8zNeQI7Ur48mzgow8mdJvn40R+F2OFzpN02OvCnI6R/IcCGR6UDLyuS9fY0bBQLZDbMhZLVGf6XrGKtuwvSnngoLzfa+p4phZuUqqdxnM6j3SovJdwJTdzPK0IG+cpfjAUyTwSvcH6KN45FTuPwp87AmSfqKX82kvu2ZAZPY0+Ug7/M7nQTYHFdrteiBL5hZkbUWCudEli8No3BlednGb5iSM1KwDcOOFvcXlK7rwQs5u6rehc2sBG7vrZ9Q7SwETKw9UEiK7xtLZ7LLzVYLNRGy4WVGvBDSv4272HnhIMM0WVm4EVPW0mYQLPyujJZhMxHZg9/jhVcLoJlfQeCBgKUGaPhcuPXCXEMskFCfHAsgHEe8snQsoJQiud70IqLzAriflSSFTwokpgdclMJLAu4Ti9IqMJXDaXD4FlBkL/T5F/upGBvk6QvrmxkBCf+s7cXYYdaP7JJCdczcSuus5SY/CSkJXPTf9iAcqOkpK7isTF+i2uyBhi8JWQrOey/UHlkGNRv97Z1uZSHl/wGlXHJpJeHm8ZlkcGlIrKb8joOSvhImrykQKRo9L6oWL4tBQwr2kdFabmUnIi8n3PHCXEMWfX4YNDYFAIBAIBAKO+QPGGi6L8Q2raQAAAABJRU5ErkJggg==">
+         </div>
+        <div id="myacc">
+            <img alt="a" src="https://image.shutterstock.com/display_pic_with_logo/191967308/1691909635/stock-vector-people-and-person-icon-people-icon-with-modern-flat-design-people-vector-icon-isolated-on-white-1691909635.jpg">
+            
+         </div>
+         <div id="my"><p>My Account</p></div>
+         <div ><a href="signin.html"><p id="login">Login</p></a></div>
+        </div>
+     </div>
+    <div id="nav">
+        <div><select id="MAKEUP">
+       <option value="MAKEUP">MAKEUP</option>
+        </select></div>
+        <div>
+           <select id="SKIN">
+               <option value="SKIN">
+                   SKIN
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="HAIR">
+               <option value="HAIR">
+                   HAIR
+               </option>
+           </select>
+        </div>
+        <div>
+        <select id="PERSONALCARE">
+           <option value="PERSONALCARE">
+               PERSONALCARE
+           </option>
+       </select></div>
+        <div>
+           <select id="MOM&BABY CARE">
+               <option value="MOM$BABY CARE">
+                  MOM&BABY CARE
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="FRAGRANCE">
+               <option value="FRAGRANCE">
+                   FRAGRANCE
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="AYURVEDA">
+               <option value="AYURVEDA">
+                  AYURVEDA
+               </option>
+           </select>
+        </div>
+        <div>
+           <select id="BRANDS">
+               <option value="BRANDS">
+                 BRANDS
+               </option>
+           </select>
+        </div>
+        <div>
+        MYCART
+        </div>
+       </div>
+    <div id="div12">
+    <div id="div1">
+        <h2>REGISTERED CUSTOMERS</h2>
+        <hr>
+    <p>If you have an account, sign in with your email address.</p>
+        <form id="form">
+          
+            <input id="email" type="text" placeholder="Enter Email">
+            <input id="password" type="password" placeholder="Enter password">
+           <input type="submit" value="signin">
+        </form>
+        <h3>Forgot Your Password?</h3>
+       </div>
+       <div id="div2">
+        <h3>NEW CUSTOMERS</h3>
+        <hr>
+        <p>Creating an account has many benefits: check out faster, keep more than one address, track orders and more.</p>
+       <button><a href="signup.html">CRREATE AN ACCOUNT</a></button>
+       </div>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit",myfunction);
+    let userData=JSON.parse(localStorage.getItem("userData")) || [];
+    function myfunction(event){
+        event.preventDefault()
+        let data={
+            email:form.email.value,
+            password:form.password.value,
+        }
+        if(checksignin(data.email,data.password)===true){
+            localStorage.setItem("signin",JSON.stringify(data))
+            alert("Sign in successful")
+            window.location.href="homepage.html"
+        }
+        else{
+            alert("Wrong username or password")
+        }
+    }
+    function checksignin(email,password){
+      let filter=userData.filter(function(element){
+        return element.email==email&&
+        element.password==password
+      })
+      if(filter.length>0){
+        return true
+      }
+      else{
+        return false
+      }
+    }
+    
+</script>
