@@ -299,7 +299,7 @@ td {
     margin-top: -20px
     
   }
-  #discount1{
+  #discount{
     font-weight: 400;
     font-size: 16px;
     color: green;
@@ -577,7 +577,7 @@ td {
                 <button id = "Apply">Apply</button>
             </div>
             <hr>
-           <a href = "homepage.html"><button id = checkout>PAY NOW</button></a>
+           <a href = "index.html"><button id = checkout>PAY NOW</button></a>
             <h4>WE ACCEPT</h4>
             <div id = "acceptpay">
                 <img
@@ -717,8 +717,8 @@ function showTotal(){
             count++;
             if(count == 1){
                 var  dis = total*30/100
-                document.querySelector("#discoun1").innerText = "Discount :"
-                document.querySelector("#discount1").innerText = "- "+dis + " $";
+                document.querySelector("#discoun").innerText = "Discount :"
+                document.querySelector("#discount").innerText = "- "+dis + " $";
               
             total = total-dis
             console.log(total)
